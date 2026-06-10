@@ -1,0 +1,22 @@
+Dataset : iemocap
+Run     : 20260611_012951
+Epochs  : 60
+
+[BEST-VAL checkpoint — test set]
+  acc=0.6815  wF1=0.6851  mF1=0.6720
+
+              precision    recall  f1-score   support
+
+         hap     0.4417    0.6319    0.5200       144
+         sad     0.8291    0.7918    0.8100       245
+         neu     0.6714    0.7344    0.7015       384
+         ang     0.6328    0.6588    0.6455       170
+         exc     0.8249    0.5987    0.6938       299
+         fru     0.6721    0.6509    0.6613       381
+
+    accuracy                         0.6815      1623
+   macro avg     0.6787    0.6778    0.6720      1623
+weighted avg     0.6992    0.6815    0.6851      1623
+
+[BEST-TEST checkpoint — test set]
+  acc=0.7030  wF1=0.7055  mF1=0.6914
