@@ -1,0 +1,18 @@
+GraphMERC v2 | Dataset: meld | Run: 20260611_150432 | Epochs: 60
+schedule=alt_inter_first cross_utt=True con=bcl modDrop=0.15 ls=0.0
+
+[BEST-VAL ckpt — test]  acc=0.6487  wF1=0.6537  mF1=0.5021
+
+              precision    recall  f1-score   support
+
+     neutral     0.7908    0.7826    0.7867      1256
+    surprise     0.5795    0.5445    0.5615       281
+        fear     0.2373    0.2800    0.2569        50
+     sadness     0.4103    0.4615    0.4344       208
+         joy     0.7188    0.5597    0.6294       402
+     disgust     0.2569    0.4118    0.3164        68
+       anger     0.5000    0.5623    0.5293       345
+
+    accuracy                         0.6487      2610
+   macro avg     0.4991    0.5146    0.5021      2610
+weighted avg     0.6637    0.6487    0.6537      2610

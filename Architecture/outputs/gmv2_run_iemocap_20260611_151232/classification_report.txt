@@ -1,0 +1,17 @@
+GraphMERC v2 | Dataset: iemocap | Run: 20260611_151232 | Epochs: 60
+schedule=alt_inter_first cross_utt=True con=bcl modDrop=0.15 ls=0.0
+
+[BEST-VAL ckpt — test]  acc=0.6876  wF1=0.6876  mF1=0.6736
+
+              precision    recall  f1-score   support
+
+         hap     0.5182    0.4931    0.5053       144
+         sad     0.8527    0.7796    0.8145       245
+         neu     0.6514    0.7786    0.7094       384
+         ang     0.6374    0.6824    0.6591       170
+         exc     0.7560    0.6321    0.6885       299
+         fru     0.6739    0.6562    0.6649       381
+
+    accuracy                         0.6876      1623
+   macro avg     0.6816    0.6703    0.6736      1623
+weighted avg     0.6930    0.6876    0.6876      1623
